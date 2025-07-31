@@ -41,4 +41,4 @@
 
 1. Склонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-репозиторий/resume-builder.git
+git clone https://github.com/Ma-sh-a/t-bank-exam.git
