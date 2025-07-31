@@ -42,3 +42,5 @@
 1. Склонируйте репозиторий:
 ```bash
 git clone https://github.com/Ma-sh-a/t-bank-exam.git
+
+## Или пройдите по ссылке:  https://ma-sh-a.github.io/t-bank-exam/
