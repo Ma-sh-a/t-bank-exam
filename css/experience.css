@@ -1,0 +1,120 @@
+.bento-item.experience h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 4px;
+  overflow-y: auto;
+}
+
+.experience-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.experience-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.experience-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.experience-section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.experience-section:first-child {
+  background-color: #28d979;
+  color: white;
+}
+
+.experience-section:first-child .date,
+.experience-section:first-child .left-column h3,
+.experience-section:first-child .left-column p,
+.experience-section:first-child .job-description li {
+  color: white;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.date {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.most-recent {
+  background-color: #30ab0e;
+  color: #d9c428;
+  font-family: 'Poppins', sans-serif;
+  padding: 6px 12px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.job-details {
+  display: flex;
+  gap: 48px;
+}
+
+.left-column {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Правая колонка — обязанности */
+.right-column {
+  flex: 1.5;
+  min-width: 0;
+}
+
+/* Стили для заголовка и компании */
+.left-column h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.left-column p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  margin: 8px 0 0 0;
+}
+
+/* Список обязанностей */
+.job-description {
+  list-style-type: disc;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.job-description li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}

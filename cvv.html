@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CVV</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="cvv_box">
+            <div class="header">
+                <button class="button" id="editBtn">Редактировать</button>
+                <button class="button" id="downloadBtn">Скачать PDF</button>
+            </div>
+
+            <div class="row row-1">
+                <div class="bento-item square-small">
+                    <div class="image-container">
+                        <img class="image" src="6.jpg" alt="Profile picture" />
+                    </div>
+                </div>
+
+                <div class="bento-item square-small">
+                    <div class="info-greeting">
+                        <h2>Hello👋 I'm</h2>
+                    </div>
+                    <div class="info-details">
+                        <h1>Karthik SR</h1>
+                        <p>UX/UI Designer</p>
+                    </div>
+                </div>
+
+                <div class="bento-item languages">
+                    <h2>Languages</h2>
+                    <div class="languages-content" id="languagesContent">
+                        <ul class="language-list" id="languageList">
+                            <li class="language-item">
+                                <div class="language-name-container">
+                                    <div
+                                        class="language-name"
+                                        contenteditable="false"
+                                    >
+                                       English
+                                    </div>
+                                </div>
+                                <div class="language-controls">
+                                    <div
+                                        class="language-level"
+                                        style="--level: 70%"
+                                    ></div>
+                                    <input
+                                        type="range"
+                                        class="language-level-slider"
+                                        min="0"
+                                        max="100"
+                                        value="70"
+                                    />
+                                </div>
+                            </li>
+                            <li class="language-item">
+                                <div class="language-name-container">
+                                    <div
+                                        class="language-name"
+                                        contenteditable="false"
+                                    >
+                                        German
+                                    </div>
+                                </div>
+                                <div class="language-controls">
+                                    <div
+                                        class="language-level"
+                                        style="--level: 40%"
+                                    ></div>
+                                    <input
+                                        type="range"
+                                        class="language-level-slider"
+                                        min="0"
+                                        max="100"
+                                        value="40"
+                                    />
+                                </div>
+                            </li>
+                            <li class="language-item">
+                                <div class="language-name-container">
+                                    <div
+                                        class="language-name"
+                                        contenteditable="false"
+                                    >
+                                        Hindi
+                                    </div>
+                                </div>
+                                <div class="language-controls">
+                                    <div
+                                        class="language-level"
+                                        style="--level: 70%"
+                                    ></div>
+                                    <input
+                                        type="range"
+                                        class="language-level-slider"
+                                        min="0"
+                                        max="100"
+                                        value="100"
+                                    />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-2">
+                <div class="bento-item experience">
+                    <h2>Experience</h2>
+                    <div class="experience-container">
+                        <div class="experience-section">
+                            <div class="section-header">
+                                <span class="date">Jun. 2023 - Present</span>
+                                <span class="most-recent">most recent</span>
+                            </div>
+                            <div class="job-details">
+                                <h3>Marketing Manager</h3>
+                                <p>Pankayam | Full-time</p>
+                            </div>
+                            <ul class="job-description">
+                                <li>
+                                    Strategy development and planning of
+                                    campaigns that promote the business and
+                                    generate genuine traffic
+                                </li>
+                                <li>
+                                    SEO Content Creation for Blogs, Website,
+                                    Social media
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-section">
+                            <div class="section-header">
+                                <span class="date">2017 - Present</span>
+                            </div>
+                            <div class="job-details">
+                                <h3>Graphic / Web designer</h3>
+                                <p>Freelance</p>
+                            </div>
+                            <ul class="job-description">
+                                <li>
+                                    Development of internal projects from
+                                    scratch, product design of brands
+                                </li>
+                                <li>Landing page, webapps and hybrid apps</li>
+                                <li>
+                                    Coordinating with outside agencies, art
+                                    services, web designer, marketing, printers,
+                                    and colleagues as necessary.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-section">
+                            <div class="section-header">
+                                <span class="date">Sep. 2021 - Jun. 2023</span>
+                            </div>
+                            <div class="job-details">
+                                <h3>Legal Assistant</h3>
+                                <p>Law Firm | Intern</p>
+                            </div>
+                            <ul class="job-description">
+                                <li>
+                                    Provide administrative support to lawyer and
+                                    enhance office effectiveness
+                                </li>
+                                <li>
+                                    Handle communication with clients, witnesses
+                                    etc.
+                                </li>
+                                <li>
+                                    Prepare case briefs and summarize
+                                    depositions, interrogatories and testimony
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-item tools">
+                    <h2>Tools</h2>
+                </div>
+            </div>
+
+            <div class="row row-3">
+                <div class="bento-item education">
+                    <h2>Education</h2>
+                    <div class="education-container">
+                        <!-- Важное образование -->
+                        <div class="education-card important">
+                            <div class="year">2023</div>
+                            <div class="title">UI/UX</div>
+                            <div class="description">
+                                #UX #UI #research<br />
+                                #DesignSystem #Ui<br />
+                                #wireframing #figma<br />
+                                #Ux
+                            </div>
+                            <div class="source">Coursera</div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="year">2017 - 2022</div>
+                            <div class="title">Law</div>
+                            <div class="description">
+                                #law #legalStudies<br />
+                                #contracts<br />
+                                #internationalLaws
+                            </div>
+                            <div class="institution">University of Kerala</div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="year">2017</div>
+                            <div class="title">Graphic design</div>
+                            <div class="description">
+                                #branding #web<br />
+                                #illustration #adobe
+                            </div>
+                            <div class="source">Coursera</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-column">
+                    <div class="bento-item interests">
+                        <h2>Interests</h2>
+                        <div class="interests-container">
+                            <div class="interest">branding</div>
+                            <div class="interest">design</div>
+                            <div class="interest">photography</div>
+                            <div class="interest">artificial intelligence</div>
+                            <div class="interest">illustration</div>
+                            <div class="interest">typography</div>
+                            <div class="interest">social networks</div>
+                            <div class="interest">research</div>
+                            <div class="interest">dron pilot</div>
+                            <div class="interest">games</div>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <h2>
+                            Let's chat! I'm ready to work on exciting projects
+                        </h2>
+                        <p class="contact-email">
+                            srkarthik.designscape@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row-1 {
+  justify-content: space-between;
+}
+
+.row-2 {
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.row-2.experience {
+  flex: 7;
+}
+
+.row-2.tools {
+  flex: 3;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 602px;
+}
+
+.right-column {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  gap: 20px;
+  height: 100%;
+}
+
+.right-column .interests {
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.contact h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.contact-email {
+  color: white;
+  font-size: 16px;
+  opacity: 0.9;
+  text-align: left;
+}
+
+.contact h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.contact-email {
+  color: white;
+  font-size: 16px;
+  opacity: 0.9;
+}
+

@@ -1,0 +1,187 @@
+@media screen and (min-width: 1200px) {
+  .cvv_box {
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 0 30px;
+  }
+
+  .row {
+    gap: 24px;
+  }
+
+  .bento-item.experience {
+    flex: 0 0 80%;
+  }
+
+  .bento-item.tools {
+    flex: 0 0 18%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cvv_box {
+    max-width: 100%;
+    margin: 20px;
+    padding: 0 20px;
+  }
+
+  .row {
+    gap: 20px;
+  }
+
+  .row-2 {
+    flex-direction: column;
+  }
+
+  .bento-item.experience,
+  .bento-item.tools {
+    flex: 1 1 auto;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .bento-item.experience {
+    margin-bottom: 20px;
+  }
+
+  .job-details {
+    gap: 32px;
+  }
+
+  .row-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .right-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cvv_box {
+    margin: 10px;
+    padding: 0 10px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .row-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 16px;
+  }
+
+  .bento-item.languages {
+    grid-column: 1 / -1;
+  }
+
+  .bento-item.experience,
+  .bento-item.tools {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .experience-section {
+    padding: 16px;
+  }
+
+  .job-details {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .left-column,
+  .right-column {
+    flex: 1 1 100%;
+  }
+
+  .row-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .right-column {
+    grid-template-rows: auto auto;
+    gap: 16px;
+  }
+
+  .interests-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .interest {
+    width: 100%;
+    text-align: center;
+  }
+
+  
+  .bento-item h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .left-column h3 {
+    font-size: 16px;
+  }
+
+  .left-column p,
+  .job-description li {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  .header {
+    display: none;
+  }
+
+  body {
+    background: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cvv_box {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+    box-shadow: none;
+  }
+
+  .bento-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 1cm;
+    size: A4;
+  }
+
+
+  .experience-section,
+  .bento-item {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+
+  .experience-section:first-child {
+    background-color: white;
+    color: black;
+  }
+
+  .experience-section:first-child .date,
+  .experience-section:first-child .left-column h3,
+  .experience-section:first-child .left-column p,
+  .experience-section:first-child .job-description li {
+    color: black;
+  }
+}

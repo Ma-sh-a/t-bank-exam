@@ -1,0 +1,77 @@
+.bento-item.interests {
+    padding: 24px;
+    background-color: var(--bg-color);
+    position: relative;
+}
+
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+    min-height: 240px;
+    align-content: flex-start;
+}
+
+.interest {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: var(--text-color);
+    cursor: default;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    line-height: 1;
+    position: relative;
+    user-select: none;
+}
+
+.bento-item.interests.editing .interest {
+    cursor: text;
+    padding-right: 40px;
+}
+
+.bento-item.interests.editing .interest:hover {
+    background-color: var(--bright-bg);
+    color: white;
+}
+
+.bento-item.interests.editing .interest:focus {
+    outline: 2px solid var(--bright-bg);
+    background-color: var(--bright-bg);
+    color: white;
+}
+
+.delete-interest {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.delete-interest:hover {
+    opacity: 1;
+}
+
+.bento-item.interests h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+

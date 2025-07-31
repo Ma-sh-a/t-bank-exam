@@ -1,0 +1,82 @@
+@import url('buttons.css');
+@import url('bento.css');
+@import url('images.css');
+@import url('row.css');
+@import url('languages.css');
+@import url('media.css');
+@import url('interests.css');
+@import url('education.css');
+@import url('experience.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+  --bright-color: rgb(248, 0, 0);
+  --box-bg:#f0f0f0;
+  --bg: white;
+  --bright-bg:#28d979;
+  --main-text-color:#787878;
+  --text-color:black;
+  --bg-color:#f1f0ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+
+
+.cvv_box {
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 1400px;
+  margin: 15px auto;
+  gap: 15px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+  .cvv_box {
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cvv_box {
+    flex-direction: column;
+    margin: 10px auto;
+    gap: 10px;
+    padding: 0 10px;
+  }
+}
+
+
+
+.material-wave {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    transform: scale(0);
+    animation: ripple 0.5s ease-out;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+  }
