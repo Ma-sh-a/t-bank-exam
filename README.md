@@ -36,11 +36,12 @@
 - **Библиотеки**:
   - jsPDF + html2canvas для генерации PDF
   - Система не требует дополнительных зависимостей
-
+ 
+    
+## Вы можете пройти по ссылке для просмотра :  https://ma-sh-a.github.io/t-bank-exam/
 ## Установка
 
 1. Склонируйте репозиторий:
 ```bash
 git clone https://github.com/Ma-sh-a/t-bank-exam.git
 
-## Или пройдите по ссылке:  https://ma-sh-a.github.io/t-bank-exam/
